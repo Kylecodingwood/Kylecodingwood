@@ -2,19 +2,18 @@
   GitHub Profile README for Kylecodingwood
   Theme: tokyonight
 
-  LeetCode: Fervent SinoussiGHW
-  Stats cards: GitHub Actions → profile/*.svg
-  Docs: https://github.com/anuraghazra/github-readme-stats
+  LeetCode CN: fervent-sinoussighw (leetcode.cn)
+  Stats: https://leetcode-stats-six.vercel.app (use &cn for China site)
 -->
 
 <p align="center">
-  <img src="./profile/github-stats.svg" height="160" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Kylecodingwood&theme=tokyonight&show_icons=true&hide_border=false" height="160" alt="GitHub stats" />
   &nbsp;
-  <img src="https://leetcard.jacoblin.cool/Fervent%20SinoussiGHW?theme=tokyonight&font=Fira+Code" height="160" alt="LeetCode stats" />
+  <img src="https://leetcode-stats-six.vercel.app/fervent-sinoussighw?theme=dark&cn" height="160" alt="LeetCode stats" />
 </p>
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/Fervent%20SinoussiGHW?theme=tokyonight&font=Fira+Code&ext=heatmap" width="88%" alt="LeetCode heatmap" />
+  <img src="https://leetcode-stats-six.vercel.app/fervent-sinoussighw/graph?theme=dark&cn&width=800" width="88%" alt="LeetCode submission graph" />
 </p>
 
 <p align="left">
@@ -29,7 +28,7 @@
 
 > Software developer focused on building practical full-stack projects and sharpening problem-solving skills. Always learning, shipping, and iterating.
 
-- 🧠 **Problem solving**: consistently practicing on [LeetCode](https://leetcode.com/u/Fervent%20SinoussiGHW/)
+- 🧠 **Problem solving**: consistently practicing on [力扣 LeetCode](https://leetcode.cn/u/fervent-sinoussighw/)
 - 🛠️ **Building**: turning ideas into working products
 - 📚 **Learning**: backend, frontend, and system design
 
@@ -64,9 +63,11 @@
 
 ---
 
-### 📈 LeetCode
+### 📈 LeetCode（力扣国服）
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/Fervent%20SinoussiGHW?theme=tokyonight&font=Fira+Code&ext=heatmap)](https://leetcode.com/u/Fervent%20SinoussiGHW/)
+[![LeetCode Stats](https://leetcode-stats-six.vercel.app/fervent-sinoussighw?theme=dark&cn)](https://leetcode.cn/u/fervent-sinoussighw/)
+
+[![LeetCode Graph](https://leetcode-stats-six.vercel.app/fervent-sinoussighw/graph?theme=dark&cn&width=800)](https://leetcode.cn/u/fervent-sinoussighw/)
 
 ---
 
