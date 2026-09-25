@@ -3,13 +3,18 @@
   Theme: tokyonight
 
   LeetCode CN: fervent-sinoussighw (leetcode.cn)
-  Stats: https://leetcode-stats-six.vercel.app (use &cn for China site)
+  GitHub stats: ghrs.vercel.app (official vercel.app currently paused)
+  LeetCode: leetcode-stats-six.vercel.app with &cn
 -->
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kylecodingwood&theme=tokyonight&show_icons=true&hide_border=false" height="160" alt="GitHub stats" />
+  <img src="https://ghrs.vercel.app/api?username=Kylecodingwood&theme=tokyonight&show_icons=true&include_all_commits=true&hide_border=false" height="165" alt="GitHub stats" />
   &nbsp;
-  <img src="https://leetcode-stats-six.vercel.app/fervent-sinoussighw?theme=dark&cn" height="160" alt="LeetCode stats" />
+  <img src="https://ghrs.vercel.app/api/top-langs/?username=Kylecodingwood&layout=compact&theme=tokyonight&hide_border=false" height="165" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://leetcode-stats-six.vercel.app/fervent-sinoussighw?theme=dark&cn" height="165" alt="LeetCode stats" />
 </p>
 
 <p align="center">

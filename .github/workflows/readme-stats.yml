@@ -28,7 +28,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: "username=${{ github.repository_owner }}&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=false"
+          options: "username=${{ github.repository_owner }}&theme=tokyonight&show_icons=true&include_all_commits=true&hide_border=false"
           path: profile/github-stats.svg
           token: ${{ secrets.README_STATS_PAT || secrets.GITHUB_TOKEN }}
 
