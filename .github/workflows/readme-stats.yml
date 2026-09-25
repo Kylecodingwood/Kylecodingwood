@@ -1,0 +1,49 @@
+# Generate GitHub stats SVGs into profile/
+# Optional: Settings → Secrets → Actions → README_STATS_PAT (classic: repo + read:user)
+
+name: Update README stats cards
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/readme-stats.yml"
+      - "README.md"
+      - "profile/**"
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate GitHub stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&hide_border=false"
+          path: profile/github-stats.svg
+          token: ${{ secrets.README_STATS_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Generate Top Languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=false"
+          path: profile/top-langs.svg
+          token: ${{ secrets.README_STATS_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/github-stats.svg profile/top-langs.svg
+          git commit -m "chore: update README stats cards" || exit 0
+          git push
