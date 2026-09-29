@@ -41,6 +41,7 @@
 |---|---|
 | 💻 **[CodingProject](https://github.com/Kylecodingwood/CodingProject)** | Coding project workspace |
 | 🧭 **[JobHelper](https://github.com/Kylecodingwood/JobHelper)** | Job-hunting helper |
+| 🤖 **[job-apply-bot](https://github.com/Kylecodingwood/job-apply-bot)** | Auto-fill job application forms with AI |
 
 ---
 
